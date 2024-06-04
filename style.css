@@ -1,0 +1,169 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Sevillana; 
+}
+body {
+      background: url(IMG/guitarras.jpg) 0 0 no-repeat fixed;
+      background-size: cover;
+}
+
+#wrap-main {
+    width: 650px;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin: auto;
+}
+#footer {
+    font-family: "Sevillana";
+    font-weight: 400;
+    font-style: normal;
+}
+h1 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    line-height: 1;
+    text-shadow: 2px 2px 6 px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-bottom: 40;
+    margin-top: 40;
+    color:rgb(212, 7, 134)     
+}       
+h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    color: #63befa;
+    margin: 0 0 20px 0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+ }
+ h3 {
+     font-family: "Poetsen One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 20;
+     text-align: left;
+     color: #ca6fff;
+}   
+ p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    columns: 2;
+    margin: 20px 0;
+    color: #FFFFFF;
+    text-align: justify;
+}
+ul, ol {
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10;
+}
+ul, ol, li, a {
+    margin: 0;
+    color: #FFFFFF;
+}
+hr {
+    border: 0;
+    background-color: #fa63a6;
+    height: 1px;
+    margin: 20px 0;
+    
+}
+#introducción{
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: auto 20px;
+}
+#discos{
+    height: auto;
+    width: 500px;
+    display: block;
+    margin: auto 20px;
+}
+img, .video-container video {
+    width: 100%;
+    margin-top: 20px;
+}
+#Morat_logo {
+    height: auto;
+    width: 300px;
+    filter: invert(100%);
+    display: block;
+    margin: 0 auto 20px;
+}
+audio {
+    box-sizing: content-box; 
+	width: 100%; 
+	border-radius: 10px; 
+	padding: 10px; 
+}
+figcaption {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0 10px;
+    text-align: center;
+    background-color: rgb(55, 0, 92);
+    border-radius: 5px;
+    padding: 5px 5px;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 10px;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+#footer {
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    columns: 1;
+}    
+video-contenedor {
+    width: 500px;
+    height: 300px;
+}
+  
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+figcaption {
+    font-style:oblique;
+    font-weight: lighter;
+    color:rgb(232, 255, 30);
+    padding: 15 px; 
+    background-color: (88, 24, 69);
+    margin: 0 auto 20px;
+}
+nav a { 
+	display: inline-block;
+	margin: 0 10px; 
+	color: darkslategray;  
+    text-align:left;
+}
+#footer {
+    background-color: lightpink;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    columns: 1;
+}
+    
